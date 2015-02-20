@@ -15,27 +15,29 @@ The final, tidy data set contains mean values of these extracted values, one per
 
 #### Time Domain Signals
 
-|------------- | -------------|
-| tBodyAcc-XYZ      | body acceleration |
-| tGravityAcc-XYZ   | gravity acceleration |
-| tBodyAccJerk-XYZ  | body acceleration Jerk signals |
-| tBodyGyro-XYZ     | body angular velocity |
-| tBodyGyroJerk-XYZ | body angular velocity Jerk signals |
-| tBodyAccMag       | body acceleration magnitude |
-| tGravityAccMag    | gravity acceleration magnitude |
-| tBodyAccJerkMag   | body acceleration Jerk signal magnitude |
-| tBodyGyroMag      | body angular velocity magnitude |
-| tBodyGyroJerkMag  | body angular velocity Jerk signal magnitude |
+Variable Name | Meaning
+------------- | -------------  
+tBodyAcc-XYZ      | body acceleration  
+tGravityAcc-XYZ   | gravity acceleration  
+tBodyAccJerk-XYZ  | body acceleration Jerk signals  
+tBodyGyro-XYZ     | body angular velocity  
+tBodyGyroJerk-XYZ | body angular velocity Jerk signals  
+tBodyAccMag       | body acceleration magnitude  
+tGravityAccMag    | gravity acceleration magnitude  
+tBodyAccJerkMag   | body acceleration Jerk signal magnitude  
+tBodyGyroMag      | body angular velocity magnitude  
+tBodyGyroJerkMag  | body angular velocity Jerk signal magnitude  
 
 #### Fast Fourier Transformed Signals
 
-------------- | -------------
-fBodyAcc-XYZ | body acceleration  
+Variable Name | Meaning
+------------- | -------------  
+fBodyAcc-XYZ     | body acceleration  
 fBodyAccJerk-XYZ | body acceleration Jerk signals  
-fBodyGyro-XYZ | body angular velocity  
-fBodyAccMag | body acceleration magnitude  
-fBodyAccJerkMag| body acceleration Jerk signal magnitude  
-fBodyGyroMag | body angular velocity magnitude  
+fBodyGyro-XYZ    | body angular velocity  
+fBodyAccMag      | body acceleration magnitude  
+fBodyAccJerkMag  | body acceleration Jerk signal magnitude  
+fBodyGyroMag     | body angular velocity magnitude  
 fBodyGyroJerkMag | body angular velocity Jerk signal magnitude  
 
 #### Subjects and Activities
