@@ -10,33 +10,33 @@ For each record in the data set, triaxial acceleration and estimated body accele
 
 ### The Variables
 
-All variables listed below are split up into their X, Y and Z axial signals, and only their mean values and standard deviations were extracted from the original data set.  
+All variables listed below are split up into their X, Y and Z axial signals, and only their mean values ("mean()") and standard deviations ("std()") were extracted from the original data set.  
 The final, tidy data set contains mean values of these extracted values, one per subject and activity.
 
 #### Time Domain Signals
 
-------------- | -------------  
-tBodyAcc-XYZ | body acceleration
-tGravityAcc-XYZ | gravity acceleration
-tBodyAccJerk-XYZ | body acceleration Jerk signals
-tBodyGyro-XYZ | body angular velocity
-tBodyGyroJerk-XYZ | body angular velocity Jerk signals
-tBodyAccMag | body acceleration magnitude
-tGravityAccMag | gravity acceleration magnitude
-tBodyAccJerkMag | body acceleration Jerk signal magnitude
-tBodyGyroMag | body angular velocity magnitude
-tBodyGyroJerkMag | body angular velocity Jerk signal magnitude
+|------------- | -------------|
+| tBodyAcc-XYZ      | body acceleration |
+| tGravityAcc-XYZ   | gravity acceleration |
+| tBodyAccJerk-XYZ  | body acceleration Jerk signals |
+| tBodyGyro-XYZ     | body angular velocity |
+| tBodyGyroJerk-XYZ | body angular velocity Jerk signals |
+| tBodyAccMag       | body acceleration magnitude |
+| tGravityAccMag    | gravity acceleration magnitude |
+| tBodyAccJerkMag   | body acceleration Jerk signal magnitude |
+| tBodyGyroMag      | body angular velocity magnitude |
+| tBodyGyroJerkMag  | body angular velocity Jerk signal magnitude |
 
 #### Fast Fourier Transformed Signals
 
 ------------- | -------------
-fBodyAcc-XYZ | body acceleration
-fBodyAccJerk-XYZ | body acceleration Jerk signals
-fBodyGyro-XYZ | body angular velocity
-fBodyAccMag | body acceleration magnitude
-fBodyAccJerkMag| body acceleration Jerk signal magnitude
-fBodyGyroMag | body angular velocity magnitude
-fBodyGyroJerkMag | body angular velocity Jerk signal magnitude
+fBodyAcc-XYZ | body acceleration  
+fBodyAccJerk-XYZ | body acceleration Jerk signals  
+fBodyGyro-XYZ | body angular velocity  
+fBodyAccMag | body acceleration magnitude  
+fBodyAccJerkMag| body acceleration Jerk signal magnitude  
+fBodyGyroMag | body angular velocity magnitude  
+fBodyGyroJerkMag | body angular velocity Jerk signal magnitude  
 
 #### Subjects and Activities
 The subjects are numbered from 1 to 30.
